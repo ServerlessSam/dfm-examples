@@ -2,14 +2,14 @@
     "SourceFiles" : [
         {
             "SourceFileLocation" : {
-                "Path" : "Users/samuellock/Documents/GitHub/dfm-cloudformation-example/filename-list-generator-example/folder1/*.json"
+                "Path" : "<REPLACE WITH YOUR LOCAL PATH TO THIS REPO EXCLUDING LEADING SLASH>/filename-list-generator-example/folder1/*.json"
             },
             "SourceFileRoot" : "$.ThisFileIsCalled",
             "DestinationFileContent" : "$.FileNames"
         },
         {
             "SourceFileLocation" : {
-                "Path" : "Users/samuellock/Documents/GitHub/dfm-cloudformation-example/filename-list-generator-example/folder1/subfolder1/*.json"
+                "Path" : "<REPLACE WITH YOUR LOCAL PATH TO THIS REPO EXCLUDING LEADING SLASH>/filename-list-generator-example/folder1/subfolder1/*.json"
             },
             "SourceFileRoot" : "$.ThisFileIsCalled",
             "DestinationFileContent" : "$.NestedFileNames"
@@ -17,7 +17,7 @@
     ],
     "DestinationFile" : {
         "DestinationFileLocation" : {
-            "Path" : "Users/samuellock/Documents/GitHub/dfm-cloudformation-example/filename-list-generator-example/folder2/filenames.json"
+            "Path" : "<REPLACE WITH YOUR LOCAL PATH TO THIS REPO EXCLUDING LEADING SLASH>/filename-list-generator-example/folder2/filenames.json"
         }
     }
 }

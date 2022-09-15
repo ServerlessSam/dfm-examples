@@ -1,0 +1,23 @@
+{
+    "SourceFiles" : [
+        {
+            "SourceFileLocation" : {
+                "Path" : "<REPLACE WITH YOUR LOCAL PATH TO THIS REPO EXCLUDING LEADING SLASH>/aws-cloudformation-example/resourceless-template.json"
+            },
+            "SourceFileRoot" : "$",
+            "DestinationFileContent" : "$"
+        },
+        {
+            "SourceFileLocation" : {
+                "Path" : "<REPLACE WITH YOUR LOCAL PATH TO THIS REPO EXCLUDING LEADING SLASH>/aws-cloudformation-example/resources/**/*.json"
+            },
+            "SourceFileRoot" : "$",
+            "DestinationFileContent" : "$.Resources"
+        }
+    ],
+    "DestinationFile" : {
+        "DestinationFileLocation" : {
+            "Path" : "<REPLACE WITH YOUR LOCAL PATH TO THIS REPO EXCLUDING LEADING SLASH>/aws-cloudformation-example/complete-template.json"
+        }
+    }
+}

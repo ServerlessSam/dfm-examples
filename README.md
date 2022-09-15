@@ -3,6 +3,8 @@ This repo contains a set of working examples for merging JSON files via the DFM 
 
 ## Usage
 
+A current limitation in **dfm** is that you need to pass full local paths to files in the config files, excluding the leading `/`. This will be addressed in the project shortly. You will see placeholders `<REPLACE WITH YOUR LOCAL PATH TO THIS REPO EXCLUDING LEADING SLASH>` in each config file to replace before running.
+
 ### CLI
 See [dfm install instructions](https://github.com/ServerlessSam/data-file-merge/wiki/Installation) for getting the CLI installed.
 
