@@ -1,0 +1,16 @@
+{
+    "SourceFiles" : [
+        {
+            "SourceFileLocation" : {
+                "Path" : "Users/samuellock/Documents/GitHub/dfm-cloudformation-example/filename-list-generator-example/folder1/**/*.json"
+            },
+            "SourceFileRoot" : "$.ThisFileIsCalled",
+            "DestinationFileContent" : "$.FileNames"
+        }
+    ],
+    "DestinationFile" : {
+        "DestinationFileLocation" : {
+            "Path" : "Users/samuellock/Documents/GitHub/dfm-cloudformation-example/filename-list-generator-example/folder2/filenames.json"
+        }
+    }
+}

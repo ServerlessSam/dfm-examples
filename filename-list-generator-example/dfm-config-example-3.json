@@ -1,0 +1,44 @@
+{
+    "SourceFiles" : [
+        {
+            "SourceFileLocation" : {
+                "Path" : "Users/samuellock/Documents/GitHub/dfm-cloudformation-example/filename-list-generator-example/folder${FolderNumber}/*.json",
+                "PathSubs" : {
+                    "FolderNumber" : {
+                        "Type" : "Literal",
+                        "Value" : "1"
+                    }
+                }
+            },
+            "SourceFileRoot" : "$.ThisFileIsCalled",
+            "DestinationFileContent" : "$.FileNames"
+        },
+        {
+            "SourceFileLocation" : {
+                "Path" : "Users/samuellock/Documents/GitHub/dfm-cloudformation-example/filename-list-generator-example/folder${FolderNumber}/${SubFolderPrefix}folder${FolderNumber}/*.json",
+                "PathSubs" : {
+                    "FolderNumber" : {
+                        "Type" : "Literal",
+                        "Value" : "1-foo-bar-baz",
+                        "Regex" : {
+                            "Expression" : "[^-]+?(?=-)",
+                            "CaptureGroup" : 0
+                        }
+                    },
+                    "SubFolderPrefix" : {
+                        "Type" : "Parameter",
+                        "Value" : "Prefix",
+                        "NamingConvention" : "FromPascalToLower"
+                    }
+                }
+            },
+            "SourceFileRoot" : "$.ThisFileIsCalled",
+            "DestinationFileContent" : "$.FileNames"
+        }
+    ],
+    "DestinationFile" : {
+        "DestinationFileLocation" : {
+            "Path" : "Users/samuellock/Documents/GitHub/dfm-cloudformation-example/filename-list-generator-example/folder2/filenames.json"
+        }
+    }
+}
