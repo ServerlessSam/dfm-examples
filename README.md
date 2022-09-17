@@ -1,5 +1,5 @@
 # Data-file-merge Working Examples
-This repo contains a set of working examples for merging JSON files via the [dfm](https://github.com/ServerlessSam/data-file-merge) CLI/Python library.
+This repo contains a set of working examples for merging JSON files via the [dfm CLI/Python library](https://github.com/ServerlessSam/data-file-merge).
 
 ## Usage
 
