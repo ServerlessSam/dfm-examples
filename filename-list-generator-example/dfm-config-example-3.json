@@ -15,7 +15,7 @@
         },
         {
             "SourceFileLocation" : {
-                "Path" : "<REPLACE WITH YOUR LOCAL PATH TO THIS REPO EXCLUDING LEADING SLASH>/filename-list-generator-example/folder${FolderNumber}/${SubFolderPrefix}folder${FolderNumber}/*.json",
+                "Path" : "filename-list-generator-example/folder${FolderNumber}/${SubFolderPrefix}folder${FolderNumber}/*.json",
                 "PathSubs" : {
                     "FolderNumber" : {
                         "Type" : "Literal",
@@ -38,7 +38,7 @@
     ],
     "DestinationFile" : {
         "DestinationFileLocation" : {
-            "Path" : "<REPLACE WITH YOUR LOCAL PATH TO THIS REPO EXCLUDING LEADING SLASH>/filename-list-generator-example/folder2/filenames.json"
+            "Path" : "filename-list-generator-example/folder2/filenames.json"
         }
     }
 }
