@@ -4,15 +4,15 @@
             "SourceFileLocation" : {
                 "Path" : "filename-list-generator-example/folder1/*.json"
             },
-            "SourceFileRoot" : "$.ThisFileIsCalled",
-            "DestinationFileContent" : "$.FileNames"
+            "SourceFileNode" : "$.ThisFileIsCalled",
+            "DestinationFileNode" : "$.FileNames"
         },
         {
             "SourceFileLocation" : {
                 "Path" : "filename-list-generator-example/folder1/subfolder1/*.json"
             },
-            "SourceFileRoot" : "$.ThisFileIsCalled",
-            "DestinationFileContent" : "$.NestedFileNames"
+            "SourceFileNode" : "$.ThisFileIsCalled",
+            "DestinationFileNode" : "$.NestedFileNames"
         }
     ],
     "DestinationFile" : {

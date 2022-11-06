@@ -4,8 +4,8 @@
             "SourceFileLocation" : {
                 "Path" : "filename-list-generator-example/folder1/**/*.json"
             },
-            "SourceFileRoot" : "$.ThisFileIsCalled",
-            "DestinationFileContent" : "$.FileNames"
+            "SourceFileNode" : "$.ThisFileIsCalled",
+            "DestinationFileNode" : "$.FileNames"
         }
     ],
     "DestinationFile" : {

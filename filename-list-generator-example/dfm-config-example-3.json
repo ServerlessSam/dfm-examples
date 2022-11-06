@@ -2,7 +2,7 @@
     "SourceFiles" : [
         {
             "SourceFileLocation" : {
-                "Path" : "Users/samuellock/Documents/GitHub/dfm-cloudformation-example/filename-list-generator-example/folder${FolderNumber}/*.json",
+                "Path" : "filename-list-generator-example/folder${FolderNumber}/*.json",
                 "PathSubs" : {
                     "FolderNumber" : {
                         "Type" : "Literal",
@@ -10,8 +10,8 @@
                     }
                 }
             },
-            "SourceFileRoot" : "$.ThisFileIsCalled",
-            "DestinationFileContent" : "$.FileNames"
+            "SourceFileNode" : "$.ThisFileIsCalled",
+            "DestinationFileNode" : "$.FileNames"
         },
         {
             "SourceFileLocation" : {
@@ -32,8 +32,8 @@
                     }
                 }
             },
-            "SourceFileRoot" : "$.ThisFileIsCalled",
-            "DestinationFileContent" : "$.FileNames"
+            "SourceFileNode" : "$.ThisFileIsCalled",
+            "DestinationFileNode" : "$.FileNames"
         }
     ],
     "DestinationFile" : {

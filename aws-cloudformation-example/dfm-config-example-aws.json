@@ -4,15 +4,15 @@
             "SourceFileLocation" : {
                 "Path" : "aws-cloudformation-example/resourceless-template.json"
             },
-            "SourceFileRoot" : "$",
-            "DestinationFileContent" : "$"
+            "SourceFileNode" : "$",
+            "DestinationFileNode" : "$"
         },
         {
             "SourceFileLocation" : {
                 "Path" : "aws-cloudformation-example/resources/**/*.json"
             },
-            "SourceFileRoot" : "$",
-            "DestinationFileContent" : "$.Resources"
+            "SourceFileNode" : "$",
+            "DestinationFileNode" : "$.Resources"
         }
     ],
     "DestinationFile" : {
